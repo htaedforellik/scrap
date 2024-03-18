@@ -5,7 +5,7 @@ from resorse import *
 import asyncio
 import csv
 
-tclient = TelegramClient('anon', api_id, api_hash, )
+tclient = TelegramClient('anon', api_id, api_hash )
 
 csv_file = 'telegram_messages.csv'
 
