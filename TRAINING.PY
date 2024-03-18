@@ -5,8 +5,6 @@ from resorse import *
 import asyncio
 import csv
 
-tclient = TelegramClient('anon', api_id, api_hash, proxy=(python_socks.ProxyType.HTTP, '127.0.0.1', 10809))
-
 csv_file = 'telegram_messages.csv'
 
 
